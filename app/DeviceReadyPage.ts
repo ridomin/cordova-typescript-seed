@@ -1,4 +1,5 @@
-﻿export class DeviceReadyPage {
+﻿// sample class 
+export class DeviceReadyPage {
 
     constructor() {
         let mainDiv: HTMLElement = document.createElement("div")
