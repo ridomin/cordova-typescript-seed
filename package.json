@@ -1,0 +1,11 @@
+{
+  "name": "cordova-typescript-seed",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "systemjs": "^0.19.31"
+  },
+  "scripts": {
+    "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib" 
+  }
+}
