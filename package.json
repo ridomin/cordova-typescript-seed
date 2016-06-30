@@ -6,6 +6,9 @@
     "systemjs": "^0.19.31"
   },
   "scripts": {
-    "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib" 
+    "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib"
+  },
+  "devDependencies": {
+    "@types/cordova": "0.0.22-alpha"
   }
 }
