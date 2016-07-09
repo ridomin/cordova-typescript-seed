@@ -12,4 +12,4 @@ build_script:
   - msbuild _template\vsix\vsix.csproj /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal /v:m
 
 after_test:
-  - ps:Vsix-PublishToGallery _template\vsix\bin
+  - ps:Vsix-PublishToGallery
