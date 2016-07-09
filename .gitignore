@@ -5,6 +5,7 @@ bld/
 plugins/
 platforms/
 www/scripts/
+www/lib/
 *.suo
 *.user
 node_modules/
