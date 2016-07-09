@@ -8,8 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_template", "_template", "{192C9D6E-DFEB-46E9-B493-B8360BE1474B}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
-		_template\clean.bat = _template\clean.bat
-		_template\zip.bat = _template\zip.bat
+		clean.bat = clean.bat
+		zip.bat = zip.bat
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vsix", "_template\vsix\vsix.csproj", "{33A46227-0D22-4BCB-AC27-1B56AA1374BD}"
