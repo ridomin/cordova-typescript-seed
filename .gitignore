@@ -11,4 +11,7 @@ node_modules/
 .vs/
 .vscode/
 
+*.user
+*.suo
+
 
