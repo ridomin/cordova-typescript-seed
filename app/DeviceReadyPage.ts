@@ -1,6 +1,4 @@
-﻿// sample class (we can remove this ref when ts 2.0 is used)
-/// <reference path="../node_modules/@types/cordova/index.d.ts" />
-
+﻿// sample class 
 export class DeviceReadyPage {
 
     constructor() {
@@ -15,7 +13,7 @@ export class DeviceReadyPage {
     }
 
     start() {
-        console.log(window.cordova.version)
+        //console.log(window.cordova.version)
         let parentElement: HTMLElement = document.getElementById("deviceready")
         let listeningElement: Element = parentElement.querySelector(".listening")
         let receivedElement: Element = parentElement.querySelector(".received")

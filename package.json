@@ -6,10 +6,12 @@
     "systemjs": "^0.19.31"
   },
   "scripts": {
+    "tsc": "node_modules/.bin/tsc",
+    "tsc:w": "node_modules/.bin/tsc -w",
+    "tslint": "node_modules/.bin/tslint app\\*.ts",
     "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib"
   },
   "devDependencies": {
-    "@types/cordova": "0.0.22-alpha",
     "tslint": "^3.13.0",
     "typescript": "^1.8.10"
   }
