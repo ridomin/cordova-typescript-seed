@@ -9,6 +9,8 @@
     "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib"
   },
   "devDependencies": {
-    "@types/cordova": "0.0.22-alpha"
+    "@types/cordova": "0.0.22-alpha",
+    "tslint": "^3.13.0",
+    "typescript": "^2.0.0-dev.20160707"
   }
 }

@@ -2,7 +2,7 @@
 
 export class App {
     init() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener("deviceready", this.onDeviceReady, false)
     }
 
     onDeviceReady() {

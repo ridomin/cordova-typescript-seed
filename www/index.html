@@ -21,8 +21,8 @@
         <script>
             System.defaultJSExtensions = "js";
             System.import("scripts/app")
-                .then(function (m) {
-                    new m.App().init();
+                .then(function (module) {
+                    new module.App().init();
                 });
         </script>
 
