@@ -13,7 +13,7 @@ export class DeviceReadyPage {
     }
 
     start() {
-        // console.log(window.cordova.version)
+        console.log(window.cordova.version)
         let parentElement: HTMLElement = document.getElementById("deviceready")
         let listeningElement: Element = parentElement.querySelector(".listening")
         let receivedElement: Element = parentElement.querySelector(".received")

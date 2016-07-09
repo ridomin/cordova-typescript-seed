@@ -9,9 +9,12 @@
     "tsc": "node_modules/.bin/tsc",
     "tsc:w": "node_modules/.bin/tsc -w",
     "tslint": "node_modules/.bin/tslint app\\*.ts",
-    "postinstall": "copy node_modules\\systemjs\\dist\\system.js www\\lib"
+    "tsd": "node_modules/.bin/tsd install",
+    "copysystemjs":  "copy node_modules\\systemjs\\dist\\system.js www\\lib",
+    "postinstall": "npm run tsd && npm run copysystemjs"
   },
   "devDependencies": {
+    "tsd": "^0.6.5",
     "tslint": "^3.13.0",
     "typescript": "^1.8.10"
   }
