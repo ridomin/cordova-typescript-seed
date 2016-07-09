@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="source.extension.ico" />
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
