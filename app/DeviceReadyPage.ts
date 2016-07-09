@@ -6,14 +6,14 @@ export class DeviceReadyPage {
         mainDiv.className = "app"
         mainDiv.innerHTML =
                 "<h1>Tools for Apache Cordova </h1>" +
-                "<div id= \"deviceready\" class=\"blink\" >" +
-                "<p class=\"event listening\" > Connecting to Device< /p>" +
-                "<p class\"event received\">Device is Ready</p></div>"
+                "<div id='deviceready' class='blink'>" +
+                "<p class='event listening'>Connecting to Device</p>" +
+                "<p class='event received'>Device is Ready</p></div>"
         document.body.appendChild(mainDiv)
     }
 
     start() {
-        //console.log(window.cordova.version)
+        // console.log(window.cordova.version)
         let parentElement: HTMLElement = document.getElementById("deviceready")
         let listeningElement: Element = parentElement.querySelector(".listening")
         let receivedElement: Element = parentElement.querySelector(".received")
