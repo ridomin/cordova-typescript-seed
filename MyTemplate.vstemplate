@@ -16,8 +16,6 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="cordova-typescript-seed.jsproj" File="cordova-typescript-seed.jsproj" ReplaceParameters="true">
-      <Folder Name=".git" TargetFolderName=".git" />
-      <Folder Name=".vs" TargetFolderName=".vs" />
       <Folder Name="app" TargetFolderName="app">
         <ProjectItem ReplaceParameters="true" TargetFileName="app.ts">app.ts</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="DeviceReadyPage.ts">DeviceReadyPage.ts</ProjectItem>
@@ -109,10 +107,6 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="system.js">system.js</ProjectItem>
         </Folder>
         <Folder Name="scripts" TargetFolderName="scripts">
-          <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="app.js.map">app.js.map</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="DeviceReadyPage.js">DeviceReadyPage.js</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="DeviceReadyPage.js.map">DeviceReadyPage.js.map</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       </Folder>
