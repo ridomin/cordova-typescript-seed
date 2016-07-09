@@ -5,11 +5,11 @@ install:
 
 before_build:
   - ps: Vsix-IncrementVsixVersion _template\vsix\vsix.csproj | Vsix-UpdateBuildVersion _template\vsix\vsix.csproj
-  - ps: Vsix-TokenReplacement src\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
+  - ps: Vsix-TokenReplacement _template\vsix\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
   - cmd: _template\vsix\zip.bat
 
 build_script:
   - msbuild _template\vsix\vsix.csproj /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal /v:m
 
 after_test:
-  - ps: Vsix-PushArtifacts | Vsix-PublishToGallery
+  - ps:Vsix-PublishToGallery _template\vsix\bin
