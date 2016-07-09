@@ -22,50 +22,6 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="app.ts">app.ts</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="DeviceReadyPage.ts">DeviceReadyPage.ts</ProjectItem>
       </Folder>
-      <Folder Name="plugins" TargetFolderName="plugins">
-        <Folder Name="cordova-plugin-whitelist" TargetFolderName="cordova-plugin-whitelist">
-          <Folder Name="doc" TargetFolderName="doc">
-            <Folder Name="de" TargetFolderName="de">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="es" TargetFolderName="es">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="fr" TargetFolderName="fr">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="it" TargetFolderName="it">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="ja" TargetFolderName="ja">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="ko" TargetFolderName="ko">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="pl" TargetFolderName="pl">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-            <Folder Name="zh" TargetFolderName="zh">
-              <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-            </Folder>
-          </Folder>
-          <Folder Name="src" TargetFolderName="src">
-            <Folder Name="android" TargetFolderName="android">
-              <ProjectItem ReplaceParameters="true" TargetFileName="WhitelistPlugin.java">WhitelistPlugin.java</ProjectItem>
-            </Folder>
-          </Folder>
-          <ProjectItem ReplaceParameters="false" TargetFileName="CONTRIBUTING.md">CONTRIBUTING.md</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="LICENSE">LICENSE</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="NOTICE">NOTICE</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="plugin.xml">plugin.xml</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-          <ProjectItem ReplaceParameters="false" TargetFileName="RELEASENOTES.md">RELEASENOTES.md</ProjectItem>
-        </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="browser.json">browser.json</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="fetch.json">fetch.json</ProjectItem>
-      </Folder>
       <Folder Name="res" TargetFolderName="res">
         <Folder Name="icons" TargetFolderName="icons">
           <Folder Name="android" TargetFolderName="android">
@@ -105,10 +61,6 @@
             <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-240.png">StoreLogo.scale-240.png</ProjectItem>
             <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-100.png">Wide310x150Logo.scale-100.png</ProjectItem>
             <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-240.png">Wide310x150Logo.scale-240.png</ProjectItem>
-          </Folder>
-          <Folder Name="wp8" TargetFolderName="wp8">
-            <ProjectItem ReplaceParameters="false" TargetFileName="ApplicationIcon.png">ApplicationIcon.png</ProjectItem>
-            <ProjectItem ReplaceParameters="false" TargetFileName="Background.png">Background.png</ProjectItem>
           </Folder>
         </Folder>
         <Folder Name="native" TargetFolderName="native">
