@@ -109,7 +109,6 @@
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="appveyor.yml">appveyor.yml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="build.json">build.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="config.xml">config.xml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
