@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="cordova-typescript-template.RidoMin.67ce102a-cf7b-46e5-8367-9e2a3aa15b13" Version="0.0.1" Language="en-US" Publisher="Rido Min" />
     <DisplayName>Cordova TypeScript Template</DisplayName>
-    <Description>A basic project to show how to work with TypeScript in Cordova apps</Description>
+    <Description>Cordova Template for TypeScript. With default configurations for Typings, Modules, SourceMaps</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />

@@ -7,7 +7,7 @@
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>cordova-typescript-seed</DefaultName>
+    <DefaultName>cordova-typescript-app</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -104,7 +104,6 @@
           <ProjectItem ReplaceParameters="false" TargetFileName="cordova.png">cordova.png</ProjectItem>
         </Folder>
         <Folder Name="lib" TargetFolderName="lib">
-          <ProjectItem ReplaceParameters="true" TargetFileName="system.js">system.js</ProjectItem>
         </Folder>
         <Folder Name="scripts" TargetFolderName="scripts">
         </Folder>
