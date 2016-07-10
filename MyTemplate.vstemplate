@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>cordova-typescript-seed</Name>
-    <Description>Template to use TypeScript Modules</Description>
+    <Name>cordova-typescript-app</Name>
+    <Description>Cordova Template for TypeScript. With default configurations for Typings, Modules, SourceMaps</Description>
     <ProjectType>TypeScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
