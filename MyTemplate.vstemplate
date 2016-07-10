@@ -116,6 +116,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="taco.json">taco.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="tsconfig.json">tsconfig.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="tslint.json">tslint.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="tsd.json">tsd.json</ProjectItem>
     </Project>
   </TemplateContent>
   <WizardExtension>
