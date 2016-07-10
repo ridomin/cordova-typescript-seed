@@ -5,6 +5,7 @@
         "module": "system",
         "outDir": "www/scripts",
         "target": "es5"
+        //"sourceMap": configured in msbuild jsproj
     },
     "exclude": [
         "node_modules",
