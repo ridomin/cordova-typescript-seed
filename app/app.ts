@@ -1,11 +1,14 @@
 ﻿import {DeviceReadyPage} from "./DeviceReadyPage"
 
 export class App {
-    init() {
-        document.addEventListener("deviceready", this.onDeviceReady, false)
+    private deviceReadyPage: DeviceReadyPage
+    constructor() {
+        this.deviceReadyPage = new DeviceReadyPage()
+        this.deviceReadyPage.render(document.body);
+        document.addEventListener("deviceready", this.onDeviceReady.bind(this), false)
     }
 
-    onDeviceReady() {
-        new DeviceReadyPage().start()
+    onDeviceReady() {        
+        this.deviceReadyPage.onDeviceReady();
     }
 }

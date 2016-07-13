@@ -71,12 +71,12 @@ h1 {
 
 .event.listening {
     background-color:#333333;
-    display:block;
+    
 }
 
 .event.received {
     background-color:#4B946A;
-    display:none;
+    
 }
 
 @keyframes fade {
@@ -94,4 +94,10 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.counter {
+    font-family: Arial;
+    font-size: x-large
+
 }
