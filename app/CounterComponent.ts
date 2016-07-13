@@ -20,7 +20,7 @@ export class CounterComponent {
         this.updateCounter()
     }
 
-    buttonClick() {
+   private buttonClick() {
         this.running = !this.running
         this.buttonControl.innerText = this.running ? "Stop" : "Start"
         this.updateCounter()
@@ -35,5 +35,4 @@ export class CounterComponent {
             }, 1000)
         }
     }
-
 }
