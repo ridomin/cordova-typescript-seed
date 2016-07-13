@@ -10,6 +10,7 @@ class StartPage {
         this.countDown()
     }
     countDown() {
+        // http://codepen.io/kindofone/pen/DkhAz
         this.secondsLeft = parseInt(this.counterSpan.innerText, 10)
         if (this.secondsLeft % 10 === 0) {
            this.npmLog.innerText = this.messages[this.lastMessage % this.messages.length]
@@ -27,6 +28,7 @@ class StartPage {
             this.counterSpan.style.color = "darkgreen"
             this.counterSpan.innerText = "Check that your dependencies have been installed."
             this.npmLog.style.display = "none"
+            document.getElementById("clock-message").style.display = "none"
         }
 
     }
