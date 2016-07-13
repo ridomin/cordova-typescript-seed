@@ -5,7 +5,7 @@
     <DisplayName>Cordova TypeScript Template</DisplayName>
     <Description>Cordova Template for TypeScript. With default configurations for Typings, Modules, SourceMaps</Description>
     <MoreInfo>http://github.com/ridomin/cordova-typescript-seed</MoreInfo>
-    <License>LICENSE</License>
+    <License>LICENSE.txt</License>
     <Icon>ts-logo32x32.png</Icon>
   </Metadata>
   <Installation>
