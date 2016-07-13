@@ -6,8 +6,7 @@
     <Description>Cordova Template for TypeScript. With default configurations for Typings, Modules, SourceMaps</Description>
     <MoreInfo>http://github.com/ridomin/cordova-typescript-seed</MoreInfo>
     <License>LICENSE</License>
-    <Icon>ts-logo32x32.pngts-logo
-    <Tags>cordova, typescript</Tags>32x32.png</Icon>
+    <Icon>ts-logo32x32.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
