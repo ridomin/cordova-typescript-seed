@@ -14,13 +14,13 @@ export class CounterComponent {
 
         this.buttonControl = <HTMLButtonElement>document.createElement("button")
         this.buttonControl.innerText = "Stop"
-        this.buttonControl.onclick = () =>  this.buttonClick() 
+        this.buttonControl.onclick = () =>  this.buttonClick()
         target.appendChild(this.buttonControl)
 
         this.updateCounter()
     }
 
-    buttonClick() {
+    private buttonClick() {
         this.running = !this.running
         this.buttonControl.innerText = this.running ? "Stop" : "Start"
         this.updateCounter()
