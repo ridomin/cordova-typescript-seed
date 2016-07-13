@@ -1,5 +1,8 @@
-﻿import {CounterComponent} from './CounterComponent'
-// sample class
+﻿import {CounterComponent} from "./CounterComponent"
+
+// sample class representing the main page
+// imports the counter component
+
 export class DeviceReadyPage {
     counter: CounterComponent
 
@@ -8,26 +11,25 @@ export class DeviceReadyPage {
     }
 
     render(target: HTMLElement) {
-        
-        let mainDiv: HTMLElement = document.createElement("div")        
+        let mainDiv: HTMLElement = document.createElement("div")
         mainDiv.className = "app"
         mainDiv.innerHTML =
             "<h1>Tools for Apache Cordova </h1>" +
-            `<div>Running on ${window.cordova.platformId} version ${window.cordova.version}</div>` +
+            "<div id='runtimeInfo' class='info'>initializing..</div>" +
             "<div id='deviceready' class='blink'>" +
-            "  <p id='statusP' class='event listening'>Connecting to Device</p>" +            
+            "  <p id='statusP' class='event listening'>Connecting to Device</p>" +
             "</div>"
-        target.appendChild(mainDiv) 
-             
+        target.appendChild(mainDiv)
         this.counter.render(mainDiv)
     }
 
     onDeviceReady() {
-        // console.log(window.cordova.version)        
         let statusP: HTMLElement = document.getElementById("statusP")
         statusP.className = "event received"
-        statusP.innerText = "Device Ready"        
-       
+        statusP.innerText = "Device Ready"
+        let divInfo: HTMLElement = document.getElementById("runtimeInfo")
+        divInfo.innerText = `running cordova-${window.cordova.platformId }@${window.cordova.version}`
+
     }
 
 }

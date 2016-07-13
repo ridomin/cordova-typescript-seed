@@ -4,9 +4,7 @@
     "noEmitOnError": true,
     "module": "system",
     "outDir": "www/scripts",
-    "target": "es5",
-    "sourceMap": true,
-    "inlineSources": true    
+    "target": "es5"
   },  
     "exclude": [
       "node_modules",
