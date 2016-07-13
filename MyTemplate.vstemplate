@@ -117,6 +117,8 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="tsconfig.json">tsconfig.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="tslint.json">tslint.json</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="tsd.json">tsd.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="startpage.html" OpenInBrowser="true">startpage.html</ProjectItem>
+      
     </Project>
   </TemplateContent>
   <WizardExtension>
