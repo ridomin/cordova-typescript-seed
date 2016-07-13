@@ -4,7 +4,10 @@
     <Identity Id="cordova-typescript-template.RidoMin.67ce102a-cf7b-46e5-8367-9e2a3aa15b13" Version="0.0.1" Language="en-US" Publisher="Rido Min" />
     <DisplayName>Cordova TypeScript Template</DisplayName>
     <Description>Cordova Template for TypeScript. With default configurations for Typings, Modules, SourceMaps</Description>
-    <MoreInfo>http://github.com/ridomin/cordova-typescript-template</MoreInfo>
+    <MoreInfo>http://github.com/ridomin/cordova-typescript-seed</MoreInfo>
+    <License>LICENSE</License>
+    <Icon>ts-logo32x32.pngts-logo
+    <Tags>cordova, typescript</Tags>32x32.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
