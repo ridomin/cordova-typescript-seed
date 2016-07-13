@@ -3,7 +3,9 @@ cordova-typescript-seed
 
 [![Build status](https://ci.appveyor.com/api/projects/status/1hhirxcajfd7rupa?svg=true)](https://ci.appveyor.com/project/ridomin/cordova-typescript-seed)
 
-You can get a Visual Studio VSIX template from [The VSIXGallery](http://vsixgallery.com/extension/cordova-typescript-template.RidoMin.67ce102a-cf7b-46e5-8367-9e2a3aa15b13/)
+You can get a Visual Studio VSIX template from the [Visual Studio Extension Gallery](https://visualstudiogallery.msdn.microsoft.com/ba611c49-716e-47c5-a724-efc9f072ff4c) 
+
+or try with beta versions in [the OpenVSIXGallery](http://vsixgallery.com/extension/cordova-typescript-template.RidoMin.67ce102a-cf7b-46e5-8367-9e2a3aa15b13/)
 
 Seed project to start working with cordova projects and TypeScript. It tries to solve the next problems:
 
