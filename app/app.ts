@@ -1,11 +1,16 @@
 ﻿import {DeviceReadyPage} from "./DeviceReadyPage"
-
+// main class invoked from index.html
 export class App {
-    init() {
-        document.addEventListener("deviceready", this.onDeviceReady, false)
+
+    private deviceReadyPage: DeviceReadyPage
+
+    constructor() {
+        this.deviceReadyPage = new DeviceReadyPage()
+        this.deviceReadyPage.render(document.body);
+        document.addEventListener("deviceready", () => this.onDeviceReady(), false)
     }
 
     onDeviceReady() {
-        new DeviceReadyPage().start()
+        this.deviceReadyPage.onDeviceReady();
     }
 }
