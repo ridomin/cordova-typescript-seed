@@ -1,7 +1,9 @@
 {
   "name": "cordova-typescript-seed",
+  "description": "sample cordova project written in TypeScript",
   "version": "1.0.0",
   "private": true,
+  "author": {"name": "rido", "email": "rido@me.com", "url": "http://blogs.msdn.com/rido"},
   "dependencies": {
     "systemjs": "^0.19.31"
   },

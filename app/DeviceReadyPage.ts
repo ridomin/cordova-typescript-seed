@@ -1,23 +1,35 @@
-﻿// sample class 
+﻿import {CounterComponent} from "./CounterComponent"
+
+// sample class representing the main page
+// imports the counter component
+
 export class DeviceReadyPage {
+    counter: CounterComponent
 
     constructor() {
+        this.counter = new CounterComponent()
+    }
+
+    render(target: HTMLElement) {
         let mainDiv: HTMLElement = document.createElement("div")
         mainDiv.className = "app"
         mainDiv.innerHTML =
-                "<h1>Tools for Apache Cordova </h1>" +
-                "<div id='deviceready' class='blink'>" +
-                "<p class='event listening'>Connecting to Device</p>" +
-                "<p class='event received'>Device is Ready</p></div>"
-        document.body.appendChild(mainDiv)
+            "<h1>Tools for Apache Cordova </h1>" +
+            "<div id='runtimeInfo' class='info'>initializing..</div>" +
+            "<div id='deviceready' class='blink'>" +
+            "  <p id='statusP' class='event listening'>Connecting to Device</p>" +
+            "</div>"
+        target.appendChild(mainDiv)
+        this.counter.render(mainDiv)
     }
 
-    start() {
-        console.log(window.cordova.version)
-        let parentElement: HTMLElement = document.getElementById("deviceready")
-        let listeningElement: Element = parentElement.querySelector(".listening")
-        let receivedElement: Element = parentElement.querySelector(".received")
-        listeningElement.setAttribute("style", "display:none;")
-        receivedElement.setAttribute("style", "display:block;")
+    onDeviceReady() {
+        let statusP: HTMLElement = document.getElementById("statusP")
+        statusP.className = "event received"
+        statusP.innerText = "Device Ready"
+        let divInfo: HTMLElement = document.getElementById("runtimeInfo")
+        divInfo.innerText = `running cordova-${window.cordova.platformId }@${window.cordova.version}`
+
     }
+
 }
