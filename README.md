@@ -15,7 +15,22 @@ Seed project to start working with cordova projects and TypeScript. It tries to 
 * Work with Visual Studio and Visual Studio Code.
 
 ## Setup Instructions
+
+### Visual Studio
+
+Install the [VSIX Template](https://visualstudiogallery.msdn.microsoft.com/ba611c49-716e-47c5-a724-efc9f072ff4c)
+
+Once Npm Dependencies have been restored hit `F5`
+
+### CLI users
+
 >you will need node/npm (npm > 3.x recommended)
+
+You can create your cordova app cloning this repo or using the create from template command:
+
+```
+cordova create MyTSApp io.cordova.mytsapp --template https://github.com/ridomin/cordova-typescript-seed
+```
 
 Install npm dependencies (SystemJS, Typescript, TSLint and TSD) running:
 
@@ -25,17 +40,18 @@ npm install
 There is a npm postinstall script that will install typings, and will copy the system.js to `www/lib` folder. 
 Now you should have a folder called typings, and `system.js` in `www/libs`
 
-## Transpilation
-This project uses Visual Studio TypeScript integration, to configure debug/release build with/without debugging support (using sourceMaps) there is tsbuild.props that configure that experience. Note that you will need to `clean` if you want to remove your sourceMaps.
+### Transpilation
 
-To compile the TypeScript code from `app` to  `www/scripts` using the command line you will need to execute `tsc`. 
-There is an npm run script to run tsc locally: `npm run tsc`
+Visual Studio will use the [tsbuild.props](https://github.com/ridomin/cordova-typescript-seed/blob/master/tsbuild.props)
+file to configure Debug builds with SourceMaps.
 
-As part of the compilation you can use tslint for code completness.
+To compile the TypeScript code from `app` to  `www/scripts` you will need to execute `tsc`. There is an npm run script to run tsc locally:
+>As part of the compilation you can use tsling for code completness.
 ```
 npm run tslint && npm run tsc
 ```
 
+>Note: To generate sourcemaps from the command line, you should edit  `tsconfig.json`
 
 ### Known Issues
 

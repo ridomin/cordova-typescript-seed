@@ -35,5 +35,4 @@ export class CounterComponent {
             }, 1000)
         }
     }
-
 }
